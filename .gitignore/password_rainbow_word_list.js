@@ -1,5 +1,4 @@
 var fs = require("fs");
-var md5 = require('js-md5');
 
 fs.readFile('rainbow_word_list.txt', function (err, data) {	
    if (err) { return console.error(err);}
